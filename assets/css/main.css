@@ -1,0 +1,73 @@
+.lightslider .lslide {
+  position: relative;
+}
+
+.lightslider .lslide .slide-images {
+  text-align: center;
+}
+
+.slide-content {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  padding: 137px 0;
+}
+
+.slide-content h2 {
+  color: #ec0d17;
+  font-size: 25px;
+  font-family: UTM Futura Extra;
+  text-transform: uppercase;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.slide-content h2:before {
+  content: '\f18e';
+  font-family: fontawesome;
+  color: #333;
+  font-size: 22px;
+  padding-right: 10px;
+}
+
+.slide-content a {
+  display: inline-block;
+  font-family: 'Roboto Slab';
+  font-size: 14px;
+  background: #ec0d17;
+  padding: 7px 20px;
+  color: #fff;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.slide-content a:hover {
+  color: #fff;
+}
+
+.slide-content a:after {
+    content: '\f178';
+    font-family: fontawesome;
+    padding-left: 10px;
+  }
+
+@media screen and (max-width: 990px) {
+  .slide-content {
+    padding: 10px 0;
+    max-height: 460px;
+    overflow: auto;
+  }
+  .slide-content h2 {
+    font-size: 20px;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  .slide-content h2:before {
+    font-size: 18px;
+  }
+  .slide-content a {
+    font-size: 13px;
+    padding: 3px 15px;
+  }
+}

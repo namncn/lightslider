@@ -1,0 +1,21 @@
+{
+    "name": "namncn/lightslider",
+    "description": "A simple slider plugin for Wordpress",
+    "type": "wordpress-plugin",
+    "license": "GPLv2 or later",
+    "authors": [
+        {
+            "name": "Nam NCN",
+            "email": "namtruongncn@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "LightSlider\\": "includes/"
+        },
+        "files": [
+            "includes/class-lightslider.php"
+        ]
+    }
+}
